@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         marker.addListener('click', function () {
           document.getElementById('overlay-modal').classList.add('modal--active');
-
+          console.log(element);
           document.getElementById('modal-content').innerHTML = makeModalContent(element);
         });
       });
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var closeBtnArray = document.getElementsByClassName('close');
   for (var i = 0; i < closeBtnArray.length; i++) {
     (function (index) {
-      closeBtnArray[index].addEventListener("click", function () {
+      closeBtnArray[index].addEventListener('click', function () {
         document.getElementById('overlay-modal').classList.remove('modal--active');
       })
     })(i);

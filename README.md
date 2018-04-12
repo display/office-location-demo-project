@@ -24,3 +24,5 @@ It is written in pure HTML, CSS and JS, no minification, build script or bootstr
 If you need to test your API in this frontend, just replace the URL in the fetch script in src/static/js/script.js.
 
 Remember to enable CORS on your API! Access-Control-Allow-Origin is a good place to start.
+
+Link to git client: [https://git-scm.com/downloads](https://git-scm.com/downloads "git client link")

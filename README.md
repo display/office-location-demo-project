@@ -1,4 +1,5 @@
 # office-location-demo-project
+##Now with working API! Somehow the DNS forwarding was wrong.. But now it actually works! (Unless your schools DNS caches a long time.. Lets hope not!) Good luck with the challenge :)
 This frontend is made to list locations from an API that returns JSON data in this format:
 ```json
 {
